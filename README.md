@@ -165,9 +165,6 @@ Typical performance on validation set:
 - [ ] Add model monitoring and retraining pipeline
 - [ ] Deploy to cloud (AWS/GCP/Azure) with CI/CD
 
-## License
-
-This project is for educational purposes as part of ML Zoomcamp coursework.
 
 ## References
 
