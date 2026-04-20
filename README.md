@@ -1,7 +1,5 @@
 # Household Electricity Consumption Forecasting
 
-Midterm project for ML Zoomcamp: Predicting next-day household energy consumption using machine learning.
-
 ## Project Overview
 
 This project forecasts daily household electricity consumption (kWh) using historical consumption patterns, calendar features, and time-series modeling techniques.
@@ -23,24 +21,6 @@ UCI Machine Learning Repository: [Individual household electric power consumptio
 - **Features**: Global active/reactive power, voltage, current, sub-metering (kitchen, laundry, water-heater/AC)
 - **Target**: Daily aggregated energy consumption (kWh)
 
-## Project Structure
-
-```
-.
-├── data/                           # Dataset files
-│   └── household_power_consumption.txt
-├── notebooks/                      # Jupyter notebooks
-│   ├── 01_power_consumption_eda.ipynb
-│   └── 02_power_consumption_modeling.ipynb
-├── models/                         # Trained model artifacts (created after training)
-│   ├── electricity_forecast_model.joblib
-│   └── model_features.json
-├── train.py                        # Training script
-├── predict.py                      # FastAPI web service
-├── requirements.txt                # Python dependencies
-├── Dockerfile                      # Docker configuration
-└── README.md                       # This file
-```
 
 ## Setup
 
@@ -191,6 +171,6 @@ This project is for educational purposes as part of ML Zoomcamp coursework.
 
 ## References
 
-- UCI Machine Learning Repository: Household Power Consumption Dataset
-- ML Zoomcamp Course Materials
+UCI Machine Learning Repository: Household Power Consumption Dataset
+
 
